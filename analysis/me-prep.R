@@ -12,14 +12,14 @@
 library("foreign")
 
 # Read 2009 data
-valgret.09 <- read.spss("data/KV09_UK_100701.sav", use.value.labels = F, to.data.frame = T)
+valgret.09 <- read.spss("KV09_UK_100701.sav", use.value.labels = F, to.data.frame = T)
 
 # Create year and context variables
 valgret.09$year <- 2009
 valgret.09$komnr <- valgret.09$KomCPR
 
 # Read 2013 data
-valgret.13 <- read.spss("data/KVALG13_01_sendt.sav", use.value.labels = F, to.data.frame = T)
+valgret.13 <- read.spss("KVALG13_01_sendt.sav", use.value.labels = F, to.data.frame = T)
 
 # Create year variable
 valgret.13$year <- 2013
