@@ -241,3 +241,6 @@ writeLines(capture.output(
             summary = TRUE,
             type="html")
 ), "desc_stat_2013.htm")
+
+# Create sessionInfo.txt
+writeLines(capture.output(sessionInfo()), "sessionInfo.txt")

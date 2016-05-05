@@ -1,0 +1,23 @@
+R version 3.2.2 (2015-08-14)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 8 x64 (build 9200)
+
+locale:
+[1] LC_COLLATE=Danish_Denmark.1252  LC_CTYPE=Danish_Denmark.1252   
+[3] LC_MONETARY=Danish_Denmark.1252 LC_NUMERIC=C                   
+[5] LC_TIME=Danish_Denmark.1252    
+
+attached base packages:
+[1] grid      stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] stargazer_5.2         ordinal_2015.6-28     ZeligMultilevel_0.7-1
+ [4] lme4_1.1-9            Matrix_1.2-2          Zelig_4.2-1          
+ [7] sandwich_2.3-4        MASS_7.3-44           boot_1.3-17          
+[10] gridExtra_2.0.0       ggplot2_2.1.0         foreign_0.8-66       
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_0.12.3      splines_3.2.2    munsell_0.4.3    colorspace_1.2-6
+ [5] lattice_0.20-33  minqa_1.2.4      plyr_1.8.3       tools_3.2.2     
+ [9] gtable_0.2.0     nlme_3.1-122     digest_0.6.9     ucminf_1.1-3    
+[13] nloptr_1.0.4     labeling_0.3     scales_0.4.0     zoo_1.7-12      
