@@ -6,6 +6,11 @@ Reproducibility material for Democracy for the Youth? The Impact of Mock Electio
 
 The `analysis` folder contains all files required to reproduce the figures and information provided in the tables. The `me-prep.R` file requires the original SPSS (`.sav`) files (not available in this repository) and creates the `me-survey.csv` file. The `me-analysis.R` combines individual-level data (`me-survey.csv`) with the municipality data (`me-context.csv`), estimate the models and create Figure 1 and Figure 2. 
 
+The survey data used in this project stems from:
+
+- Kommunalvalgsundersøgelsen 2009 (_The Danish Municipality Study, 2009_)
+- Kommunalvalgsundersøgelsen 2013 (_The Danish Municipality Study, 2013_)
+
 ### Author/contact
 
  - Erik Gahner Larsen, Department of Political Science, University of Southern Denmark, egl@sam.sdu.dk
@@ -22,7 +27,7 @@ The `analysis` folder contains all files required to reproduce the figures and i
 - `me-survey.csv` = Survey data
 - `sessionInfo.txt` = Output from sessionInfo() in R
 
-### Data: `me-conext.csv`
+### Data: `me-context.csv`
 
 - `komnr` = Unique municipality identifier
 - `navn` = Name of municipality (in Danish)
