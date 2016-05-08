@@ -4,7 +4,7 @@ Democracy for the Youth? The Impact of Mock Elections on Voting Age Attitudes
 ### Description and Data Sources
 Reproducibility material for Democracy for the Youth? The Impact of Mock Elections on Voting Age Attitudes. 
 
-The `analysis` folder contains all files required to reproduce the figures and information provided in the tables. The `me-prep.R` file requires the original SPSS (`.sav`) files (not available in this repository) and creates the `me-survey.csv` file. The `me-analysis.R` combines individual-level data (`me-survey.csv`) with the municipality data (`me-context.csv`), estimate the models and create Figure 1 and Figure 2. 
+The `analysis` folder contains all files required to reproduce the figures and information provided in the tables. The `me-prep.R` file requires the original SPSS (`.sav`) files (not available in this repository, available upon request in the [Harvard Dataverse](http://dx.doi.org/10.7910/DVN/AIP0V8)) and creates the `me-survey.csv` file. The `me-analysis.R` combines individual-level data (`me-survey.csv`) with the municipality data (`me-context.csv`), estimate the models and create Figure 1 and Figure 2. 
 
 The survey data used in this project stems from:
 
@@ -29,6 +29,7 @@ The survey data used in this project stems from:
 
 ### Data: `me-context.csv`
 
+Variables in file:
 - `komnr` = Unique municipality identifier
 - `navn` = Name of municipality (in Danish)
 - `valgdelt` = Local election turnout (in 2009)
@@ -40,6 +41,7 @@ The survey data used in this project stems from:
 
 ### Data: `me-survey.csv`
 
+Variables in file:
 - `year` = Survey year 
 - `komnr` = Unique municipality identifier
 - `valgret` = Voting age attitude, ordinal
